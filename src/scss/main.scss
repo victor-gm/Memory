@@ -1,0 +1,39 @@
+
+html, body {
+  margin: 0;
+  height: 100%;
+  padding: 30px;
+}
+/*tablero del juego*/
+.grid-container { 
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  height:100%;  
+}
+
+/*imágenes*/
+.grid-item { 
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 5px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+div > canvas{
+  flex-grow: 1;
+  flex-shrink: 1;
+  width: 50%;
+}
+
+#rankingBody,#sendInformation,header { 
+  border: 5px solid rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+#rankingBody,#sendInformation{
+  top: 50%;
+  left: 50%;
+
+} 
